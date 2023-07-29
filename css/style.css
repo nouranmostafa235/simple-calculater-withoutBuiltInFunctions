@@ -1,0 +1,23 @@
+.container{
+    background-image: url(../Better-Calculations-for-Better-Data-Storytelling-Header-Image.png);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.layer {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.calculatar_body {
+    background-color: #5C5C5C;
+    height: 315px;
+    width: 305px;
+}
+.screen{
+    height: 50px;
+    background-color: #CEDFCF !important;
+}
+.equal_btn{
+    background-color: #EEA944 !important;
+}

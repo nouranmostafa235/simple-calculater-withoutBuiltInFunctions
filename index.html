@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calculator</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="home">
+        <div class="container">
+            <div class="layer d-flex justify-content-center align-items-center rounded-5">
+                <div class="" id="p20">
+                    <div class="calculatar_body mx-auto rounded-4 p-4 mb-4">
+                        <div class="col-md-12">
+                            <input type="text" class="screen form-control bg-light" id="calc_input" name="p20_input">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="7" id="button" onclick="document.getElementById('calc_input').value+= this.value">7</button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="8" id="button" onclick="document.getElementById('calc_input').value+= this.value">8</button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="9" id="button" onclick="document.getElementById('calc_input').value+= this.value">9</button>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="/" id="button" onclick="document.getElementById('calc_input').value+= this.value">/</button>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="4" id="button" onclick="document.getElementById('calc_input').value+= this.value">4</button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="5" id="button" onclick="document.getElementById('calc_input').value+= this.value">5</button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="6" id="button" onclick="document.getElementById('calc_input').value+= this.value">6</button>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="x" id="button" onclick="document.getElementById('calc_input').value+= this.value">x</button>
+                            </div>
+
+                            
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="1" id="button" onclick="document.getElementById('calc_input').value+= this.value">1</button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="2" id="button" onclick="document.getElementById('calc_input').value+= this.value">2</button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="3" id="button" onclick="document.getElementById('calc_input').value+= this.value">3</button>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="-" id="button" onclick="document.getElementById('calc_input').value+= this.value">-</button>
+                            </div>
+
+
+                            
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="0" id="button" onclick="document.getElementById('calc_input').value+= this.value">0</button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-3 " value="." id="button" onclick="document.getElementById('calc_input').value=''">DEL</button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4" value="+" id="button" onclick="document.getElementById('calc_input').value+= this.value">+</button>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-light mt-3 px-4 equal_btn" value="=" id="equal_button" onclick="calculator()">=</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
